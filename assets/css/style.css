@@ -1502,6 +1502,18 @@
     .section-ten .inner-wrap .inner-content .inner-social i {
         font-size: 20px;
     }
+    .section-ten .container {
+        margin: 0 30px;
+    }
+}
+
+
+@media screen and (max-width: 580px) {
+    
+
+    .section-ten .inner-wrap .inner-content {
+        padding: 0;
+    }
 }
 
 
