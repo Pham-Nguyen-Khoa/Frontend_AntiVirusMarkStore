@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --color-one: #103178;
+    --color-two: #FFC800;
+    --color-text: #78798F;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Inria Serif', serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Buttons  */
+.button {
+    display: inline-block;
+    background-color: #103178;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 45px;
+    font-weight: 600;
+    width: 180px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    transition:  background 0.3s ease, border 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Thêm các thuộc tính cần chuyển đổi */
+}
+.button-two{
+    background-color: #FFC800;
+}
+.button-two:hover{
+    background: #fff;
+    border: 2px solid #FFC800;
+    color: #FFC800;
+}
+
+.button-one{
+    background-color: var(--color-one);
+}
+.button-one:hover{
+    background: #fff;
+    border: 2px solid var(--color-one);
+    color: var(--color-one);
+}
+
+.button-three{
+    background-color: #13A05D;
+}
+.button-three:hover{
+    background: #fff;
+    border: 2px solid #13A05D;
+    color: #13A05D;
+}
+
+
+.button-four{
+    background-color: #fff;
+    color: var(--color-one);
+    border: 1px solid var(--color-text);
+}
+.button-four:hover{
+    background: var(--color-one);
+    border: 2px solid var(--color-one);
+    color: #fff;
+}
+
+
+
+/* End Buttons  */
+
+
+
+ .mixin-title {
+    text-align: center;
+    font-size: 32px;
+    color: var(--color-one);
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .container{
+        max-width: 1000px;
+        margin: 0 80px;
+
+    }
+}
+@media screen and (max-width: 992px) {
+    .container{
+        max-width: 700px;
+        margin: 0 140px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 600px;
+        margin: 0 50px;
+    }
+}
+@media screen and (max-width: 678px) {
+    .container{
+        max-width: 550px;
+        margin: 0 40px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .container{
+        max-width: 450px;
+        margin: 0 30px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .container{
+        max-width: 350px;
+        margin: 0 50px;
+    }
+}
